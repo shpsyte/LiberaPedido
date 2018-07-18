@@ -1,0 +1,29 @@
+﻿    <!-- HEADER -->
+<header id="header">
+    <div id="logo-group">
+
+        <!-- PLACE YOUR LOGO HERE -->
+        <span id="logo">
+            <a href="@Url.Action("Index", "Home")">
+
+                <img src="~/content/img/logo_bavatos.png" alt="Bavatos">
+            </a>
+        </span>
+        <!-- END LOGO PLACEHOLDER -->
+      
+    </div>
+   
+    <section id="top-right">
+        @if (@Model is HelperResult)
+        {
+            @Model
+        }
+        else
+        {
+            <div class="pull-right">
+                @Html.Partial("_TopRight")
+            </div>
+        }
+    </section>
+</header>
+<!-- END HEADER -->

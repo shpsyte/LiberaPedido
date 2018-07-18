@@ -1,0 +1,21 @@
+﻿@model Pedido_Resposta_Model
+
+@Html.AntiForgeryToken()
+@Html.HiddenFor(model => model.VPedidoVenda.cd_empresa)
+@Html.HiddenFor(model => model.VPedidoVenda.nr_pedido)
+
+<fieldset>
+
+    <div>
+        <section>
+            <label class="label">Obs</label>
+            <label class="textarea textarea-resizable">
+                <i class="icon-prepend fa fa-comment"></i>
+                @Html.TextAreaFor(m => m.Obs, new { @class = "custom-scroll", @rows = "2" })
+                @Html.ValidationMessageFor(model => model.Obs)
+            </label>
+        </section>
+
+    </div>
+
+</fieldset>

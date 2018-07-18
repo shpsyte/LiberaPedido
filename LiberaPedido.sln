@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{ACFBA11B-D7A2-4FEF-A327-E25649C49EF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{24572BCF-6779-43E6-841A-39B845EF7A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{73F8151B-ECBF-43A1-83D8-751426EEACB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{C4E5C430-97BF-4FC1-B830-CF168BC67308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{58994865-DA3F-41E0-AEBB-D758298C3B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiberaPedido", "LiberaPedido\LiberaPedido.csproj", "{AA1E69CC-7D57-4FD2-A83F-C5347135465B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73F8151B-ECBF-43A1-83D8-751426EEACB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F8151B-ECBF-43A1-83D8-751426EEACB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F8151B-ECBF-43A1-83D8-751426EEACB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F8151B-ECBF-43A1-83D8-751426EEACB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E5C430-97BF-4FC1-B830-CF168BC67308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E5C430-97BF-4FC1-B830-CF168BC67308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E5C430-97BF-4FC1-B830-CF168BC67308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E5C430-97BF-4FC1-B830-CF168BC67308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58994865-DA3F-41E0-AEBB-D758298C3B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58994865-DA3F-41E0-AEBB-D758298C3B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58994865-DA3F-41E0-AEBB-D758298C3B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58994865-DA3F-41E0-AEBB-D758298C3B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1E69CC-7D57-4FD2-A83F-C5347135465B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1E69CC-7D57-4FD2-A83F-C5347135465B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1E69CC-7D57-4FD2-A83F-C5347135465B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1E69CC-7D57-4FD2-A83F-C5347135465B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73F8151B-ECBF-43A1-83D8-751426EEACB1} = {ACFBA11B-D7A2-4FEF-A327-E25649C49EF9}
+		{C4E5C430-97BF-4FC1-B830-CF168BC67308} = {ACFBA11B-D7A2-4FEF-A327-E25649C49EF9}
+		{58994865-DA3F-41E0-AEBB-D758298C3B5E} = {ACFBA11B-D7A2-4FEF-A327-E25649C49EF9}
+		{AA1E69CC-7D57-4FD2-A83F-C5347135465B} = {24572BCF-6779-43E6-841A-39B845EF7A82}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://iscosistemas.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Business\\Business.csproj
+		SccProjectTopLevelParentUniqueName1 = LiberaPedido.sln
+		SccProjectName1 = Business
+		SccLocalPath1 = Business
+		SccProjectUniqueName2 = Data\\Data.csproj
+		SccProjectTopLevelParentUniqueName2 = LiberaPedido.sln
+		SccProjectName2 = Data
+		SccLocalPath2 = Data
+		SccProjectUniqueName3 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = LiberaPedido.sln
+		SccProjectName3 = Domain
+		SccLocalPath3 = Domain
+		SccProjectUniqueName4 = LiberaPedido\\LiberaPedido.csproj
+		SccProjectTopLevelParentUniqueName4 = LiberaPedido.sln
+		SccProjectName4 = LiberaPedido
+		SccLocalPath4 = LiberaPedido
+	EndGlobalSection
+EndGlobal
